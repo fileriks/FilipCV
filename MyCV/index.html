@@ -5,8 +5,16 @@
             display: flex;
         }
         .sidebar {
-            background-color: lightgrey;
-            width: 250px;
+            background-color: black;
+            min-width: 262px;
+        }
+        .sidebar p {
+            color: white;
+            font-size:16px;
+        }
+        .sidebar ul {
+            color:white;
+            font-size:16px;
         }
         
         .info {
@@ -16,18 +24,42 @@
         img {
             max-width: 150px;
             border-radius: 75px;
-            margin-left: 20px;
+            margin-left: 36px;
         }
         
         p {
             line-height: 10px;
+            font-size: 14px;
         }
         
-        h3 {
+        b {
+            font-size: 16px;
+        }
+        .content {
+            background-color:whitesmoke;
+        }
+        
+        .side-stuff h3 {
             text-align: right;
             border-bottom: 1px solid;
             margin-top: 50px !important;
             padding-bottom: 10px;
+            color: darkgoldenrod;
+        }
+        .main-stuff h3 {
+            text-align: left !important;
+            color: darkgoldenrod;
+            border-bottom:2px darkgoldenrod solid !important;
+        }
+        .main-stuff h4 {
+            text-decoration: underline;
+            color: darkgoldenrod
+        }
+        .main-stuff p {
+            line-height: 20px;
+        }
+        .main-stuff b {
+            line-height: 30px;
         }
         .fa {
             margin-right: 15px;
@@ -55,7 +87,8 @@
                             <h3><i class="fa fa-address-book"></i>Kontakt</h3>
                             <p><i class="fa fa-mobile-phone"></i>+358 40 59 25 600</p>
                             <p><i class="fa fa-envelope-o"></i>erikssonfilip95@gmail.com</p>
-                            <a href="https://se.linkedin.com/in/filip-eriksson-b3491ab6"><i class="fa fa-linkedin-square"></i>Linkedin profil</a></p>
+                            <p><a href="https://se.linkedin.com/in/filip-eriksson-b3491ab6"><i class="fa fa-linkedin-square"></i>Linkedin profil</a></p>
+                            <p><a href = "https://github.com/fileriks"><i class = "fa fa-github"></i>Github</a></p>
                         </div>
                         <div class="side-stuff">
                             <h3><i class="fa fa-language"></i>Språk</h3>
@@ -74,11 +107,30 @@
                 </div>
                 <div class="content">
                     <div class="info">
-                    <div class="side-stuff">
-                        <h3><i class="fa fa-info-circle"></i>Om mig</h3>
-                        <p>Filip Eriksson</p>
-                        <p>Doktor Liborius Gata 6B</p>  
-                        <p>41323 Göteborg</p>
+                    <div class="main-stuff">
+                        <h3><i class="fa fa-university"></i>Studier</h3>
+                        <h4>Chalmers Tekniska Högskola</h4>
+                        <b>Kandidat inom Teknisk Matematik  2014-2017</b>
+                        <p>Kandidatarbete: "Robotautomation - Övervakning och styrning för industri 4.0"</p>
+                        <h4>Ålands Lyceum</h4>
+                        <b>Naturvetenskapliga linjen  2011-2014</b>
+                        <p>Stipendie i Kemi</p>
+                        <h3><i class = "fa fa-briefcase"></i> Arbetslivserfarenheter </h3>
+                        <b> Butiksbiträde, Mini-market AB  sommaren 2014 </b>
+                        <p>Sommarjobb, stod i kassan, plockade upp varor och städade</p>
+                        <b> Sommarlovsentreprenör, Ålands näringsliv  sommaren 2013</b>
+                        <p> Hade ”eget företag” som en del av Ålands Näringslivs projekt Sommarlovsentreprenörer under en sommar där min affärsidé var som kringresande allt-i-allo.  Marknadsförde mig själv med flygblad och fick utföra diverse uppdrag hemma hos kunderna.</p>
+                        <h3><i class = "fa fa-code"></i>Programmeringskunskaper</h3>
+                        <b> Java </b>
+                        <p>Goda kunskaper, kunskap inom datastrukturer, JDBC och OOP </p>
+                        <p>Kurser: Programmeringsteknik, Datastrukturer och Databaser</p>
+                        <b> SQL </b>
+                        <p> Goda kunskaper, kunskap inom E-R diagram, relational algebra, queries, constraints och triggers </p>
+                        <p>Kurser: Databaser</p>
+                        <b>MATLAB</b>
+                        <p>Goda kunskaper, kunskap inom numerisk analys, numerisk linjär algebra, stokastisk optimering, och ODE </p>
+                        <p>Kurser: Linjär algebra och numerisk analys, ODE och matematisk modellering, Stokastiska optimeringsmetoder</p>
+                        
                     </div>
                 </div>
             </div>
